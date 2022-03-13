@@ -17,20 +17,22 @@
             <h1>RVRent</h1>
             <div class="rvrent-pages-container">
                 <a href="index.html" target="_self" rel="noopener noreferrer">Home</a>
-                <a href="index.html" target="_self" rel="noopener noreferrer">Destination</a>
-                <a href="index.html" target="_self" rel="noopener noreferrer">Promotion</a>
-                <a href="index.html" target="_self" rel="noopener noreferrer">Contact</a>
+                <a href="#cards" target="_self" rel="noopener noreferrer">Destination</a>
+                <a href="#secondary-banner" target="_self" rel="noopener noreferrer">Promotion</a>
+                <a href="#form-section-left" target="_self" rel="noopener noreferrer">Contact</a>
             </div>
 
         </nav>
     </header>
-    <div class="banner">
-        <img src="img/banner/black-home-wheels.jpg" class="img-fluid" alt="Image banner">
+
+    <div class="primary-banner">
+        <img class="container-fluid" src="img/banner/black-home-wheels.jpg" class="img-fluid" alt="Image banner">
     </div>
+
     <main>
         <section id="cards" class="container">
             <div class="row">
-                <div class="col sm-6 col-lg-4 mb-3"  >
+                <div class="col sm-6 col-lg-4 mb-3">
                     <div class="card">
                         <img src="img/bast-ways/best-way01.jpg" alt="Bast ways 01">
                         <span class="card-description">
@@ -39,7 +41,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col sm-6 col-lg-4 mb-3" >
+                <div class="col sm-6 col-lg-4 mb-3">
                     <div class="card">
                         <img src="img/bast-ways/best-way01.jpg" alt="Bast ways 01">
                         <span class="card-description">
@@ -48,7 +50,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col sm-6 col-lg-4 mb-3" >
+                <div class="col sm-6 col-lg-4 mb-3">
                     <div class="card">
                         <img src="img/bast-ways/best-way01.jpg" alt="Bast ways 01">
                         <span class="card-description">
@@ -57,7 +59,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col sm-6 col-lg-4 mb-3" >
+                <div class="col sm-6 col-lg-4 mb-3">
                     <div class="card">
                         <img src="img/bast-ways/best-way01.jpg" alt="Bast ways 01">
                         <span class="card-description">
@@ -66,7 +68,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col sm-6 col-lg-4 mb-3" >
+                <div class="col sm-6 col-lg-4 mb-3">
                     <div class="card">
                         <img src="img/bast-ways/best-way01.jpg" alt="Bast ways 01">
                         <span class="card-description">
@@ -86,8 +88,78 @@
                 </div>
             </div>
         </section>
-        
     </main>
+
+    <div id="secondary-banner" class="secondary-banner">
+        <img class="container-fluid" src="img/banner/tall-pines.jpg" class="img-fluid" alt="Image banner">
+    </div>
+
+    <section id="form-section-left" class="container">
+        <div class="conteiner-asides">
+            <aside id="left" class="col sm-6 col lg-4 mb3">
+                <span id="secondary-text-color">
+                    <h1 id="title-text-aside-left">Camp Along East Lake Toho’s Scenic Waterfront</h1>
+                </span>
+                <span id="text-aside-left">
+                    <p>East Toho RV Resort and Marina is nestled on the northern shore of East Lake Tohopekaliga,
+                        affectionately referred to as East Lake Toho. The community is replete with old-Florida Oaks,
+                        pristine waters, spacious RV sites, and vacation rental cottages. The Resort is currently
+                        undergoing a multimillion dollar enhancement across each facet of the community, but we are open
+                        and welcome you to take full advantage of our onsite features, including:</p>
+
+                    <p> Lakeside RV sites and views (Pavered Supersites now available!)</p>
+
+                    <p>Rental cottages (upgraded units available by February 2022)</p>
+
+                    <p>Swimming pool (opening March 2022)</p>
+
+                    <p>On-site marina and boat launch</p>
+
+                    <p>Gorgeous grounds with mature oak trees
+                        Fishing</p>
+
+                    <p>Convenience store</p>
+
+                    <p>Laundry facilities</p>
+
+
+                    <p>New Supersite Winter Special – $1200/month</p>
+                    <p>Includes access to our refurbished supersite bathhouse!</p>
+                </span>
+            </aside>
+            <aside id="right">
+                <span id="form-container">
+                    <form id="row">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+
+                            <div class="col-md-12 mb-30">
+                                <label for="validationTextarea">Textarea</label>
+                                <textarea class="form-control is-invalid" id="validationTextarea"
+                                    placeholder="let us a message" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter a message in the textarea.
+                                </div>
+                            </div>                            
+                    </form>
+                    <button id="btn-send">Send a message</button>
+                </span>
+            </aside>
+        </div>
+    </section>
+
 
 </body>
 
